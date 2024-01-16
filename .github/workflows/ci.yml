@@ -11,7 +11,6 @@ name: Validate everything
     branches:
     - main
 env:
-  DOCKER_HUB_USERNAME: CjS77
   GH_CONTAINER_REGISTRY_USERNAME: CjS77
   AWS_ACCESS_KEY_ID: AKIAnnnnnnnnnnnn
 jobs:

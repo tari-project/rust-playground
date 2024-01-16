@@ -2,7 +2,7 @@
 
 FROM ubuntu:22.04 as toolchain
 ARG channel=nightly
-ARG version=2023-06-11
+ARG version=2023-08-10
 
 ENV DEBIAN_FRONTEND="noninteractive"
 
