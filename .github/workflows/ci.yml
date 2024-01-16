@@ -9,7 +9,7 @@ name: Validate everything
     types:
     - labeled
     branches:
-    - main
+    - master
 env:
   GH_CONTAINER_REGISTRY_USERNAME: CjS77
   AWS_ACCESS_KEY_ID: AKIAnnnnnnnnnnnn
