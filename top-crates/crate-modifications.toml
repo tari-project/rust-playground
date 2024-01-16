@@ -5,4 +5,49 @@ additions = [
     # rg 'https://crates.io/crates/[a-z_-]+' --glob '*.stderr' --only-matching --no-line-number --no-filename | sort | uniq | cut -d '/' -f 5
     "async-trait",
     "async-recursion",
+    "tari_crypto",                       # Tari Cryptography library
+    "tari_storage",                      # Key-Value store API for the Tari project
+    "tari_common",                       # Utilities and features for the Tari domain layer, shared across both Base and Digital…
+    "tari_infra_derive",                 # Tari derive macros
+    "tari_utilities",                    # A set of useful and commonly used utilities that are used in several places in the Ta…
+    "tari_bulletproofs_plus",            # A smaller faster implementation of Bulletproofs
+    "tari_template_lib",                 # Tari template library provides abstrations that interface with the Tari validator eng…
+    "tari_common_types",                 # Tari cryptocurrency common types
+    "tari_key_manager",                  # Tari cryptocurrency wallet key management
+    "tari_protobuf_build",               # Protobuf build code for Tari codebase
+    "tari_service_framework",            # The Tari communication stack service framework
+    "tari_test_utils",                   # Utility functions used in Tari test functions
+    "tari_transactions",                 # Core Tari blockchain primitives
+    "tari_broadcast_channel",            # Bounded non-blocking single-producer-multi-consumer broadcast channel
+    "tari_pubsub",                       # Single publisher with multiple subscribers to topic messages
+    #"tari_scaffolder",                   # Squat prevention for tari_scaffolder
+    #"tari_script",                       # Squat prevention for tari_script
+    #"tari_signaling_server",             # Squat prevention for tari_signaling_server
+    #"tari_state_store_sqlite",           # Squat prevention for tari_state_store_sqlite
+    "tari_template_abi",                 # Defines the low-level Tari engine ABI for WASM targets
+    #"tari_template_builtin",             # Squat prevention for tari_template_builtin
+    "tari_template_macros",              # Tari template macro
+    #"tari_template_test_tooling",        # Squat prevention for tari_template_test_tooling
+    #"tari_transaction",                  # Squat prevention for tari_transaction
+    #"tari_transaction_manifest",         # Squat prevention for tari_transaction_manifest
+    #"tari_validator_node",               # Squat prevention for tari_validator_node
+    #"tari_validator_node_cli",           # Squat prevention for tari_validator_node_cli
+    #"tari_validator_node_client",        # Squat prevention for tari_validator_node_client
+    #"tari_validator_node_rpc",           # Squat prevention for tari_validator_node_rpc
+    #"tari_wallet_daemon_client",         # Squat prevention for tari_wallet_daemon_client
+    "tari_mmr",                          # A Merkle Mountain Range implementation
+    "tari_bor",                          # The binary object representation (BOR) crate provides a binary encoding for template/…
+    "tari-curve25519-dalek",             # A pure-Rust implementation of group operations on ristretto255 and Curve25519
+    "tari_shutdown",                     # A convenient shutdown signal
+    "tor-hash-passwd",                   # Tor control port password encryption and decryption
+    #"minotari_app_grpc",                 # Squat prevention for minotari_app_grpc
+    #"minotari_app_utilities",            # Squat prevention for minotari_app_utilities
+    #"minotari_chat_ffi",                 # Squat prevention for minotari_chat_ffi
+    #"minotari_console_wallet",           # Squat prevention for minotari_console_wallet
+    #"minotari_merge_mining_proxy",       # Squat prevention for minotari_merge_mining_proxy
+    #"minotari_miner",                    # Squat prevention for minotari_miner
+    #"minotari_mining_helper_ffi",        # Squat prevention for minotari_mining_helper_ffi
+    #"minotari_node",                     # for PoC purpose AnupamAS01
+    #"minotari_wallet",                   # Squat prevention for minotari_wallet
+    #"minotari_wallet_ffi",               # Squat prevention for minotari_wallet_ffi
 ]
