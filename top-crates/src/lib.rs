@@ -314,7 +314,10 @@ fn populate_initial_direct_dependencies(
         // Find the newest non-prelease version
         let summary = matches
             .into_iter()
-            .filter(|summary| !summary.version().is_prerelease())
+            .filter(|summary| {
+                global.modifications.additions.contains(&summary.name())
+                    || !summary.version().is_prerelease()
+            })
             .max_by_key(|summary| summary.version().clone())
             .unwrap_or_else(|| panic!("Registry has no viable versions of {}", name));
 
