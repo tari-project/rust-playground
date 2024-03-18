@@ -2,7 +2,7 @@
 
 set -euv -o pipefail
 
-repository=tari-project
+repository=ghcr.io/tari-project/rust-playground
 
 for image in rust-stable rust-beta rust-nightly; do
     docker pull "${repository}/${image}"

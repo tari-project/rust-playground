@@ -11,17 +11,17 @@ additions = [
     "tari_utilities",
     "tari_bulletproofs_plus",            # A smaller faster implementation of Bulletproofs
     #"tari_template_lib",                 # Tari template library provides abstrations that interface with the Tari validator eng…
-    #"tari_common_types",                 # Tari cryptocurrency common types
-    #"tari_key_manager",                  # Tari cryptocurrency wallet key management
+    "tari_common_types",                  # Tari cryptocurrency common types
+    "tari_key_manager",                   # Tari cryptocurrency wallet key management
     #"tari_scaffolder",                   # Squat prevention for tari_scaffolder
-    #"tari_script",                       # Squat prevention for tari_script
+    "tari_script",                       # Squat prevention for tari_script
     #"tari_signaling_server",             # Squat prevention for tari_signaling_server
     #"tari_state_store_sqlite",           # Squat prevention for tari_state_store_sqlite
     #"tari_template_abi",                 # Defines the low-level Tari engine ABI for WASM targets
     #"tari_template_builtin",             # Squat prevention for tari_template_builtin
     #"tari_template_macros",              # Tari template macro
     #"tari_template_test_tooling",        # Squat prevention for tari_template_test_tooling
-    #"tari_mmr",                          # A Merkle Mountain Range implementation
-    #"tari_bor",                          # The binary object representation (BOR) crate provides a binary encoding for template/…
+    "tari_mmr",                          # A Merkle Mountain Range implementation
+    "tari_bor",                          # The binary object representation (BOR) crate provides a binary encoding for template/…
     "tor-hash-passwd",                   # Tor control port password encryption and decryption
 ]
