@@ -222,7 +222,6 @@ jobs:
       run: |-
         for c in stable beta nightly; do
           docker push ghcr.io/tari-project/rust-playground-ci-rust-$c
-          docker push tari-project/rust-$c
         done
     - name: Download backend
       uses: actions/download-artifact@v3
